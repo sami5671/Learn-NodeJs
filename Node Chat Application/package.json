@@ -1,0 +1,24 @@
+{
+  "name": "node-chat-application",
+  "version": "1.0.0",
+  "description": "sami chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "author": "Md sami Alam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validation": "^4.1.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
